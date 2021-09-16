@@ -28,7 +28,7 @@ define("LAN_FRONT_15", "This playlist does not exist or is empty. Please double 
 define("LAN_FRONT_16", "This playlist does not exist or is empty.");
 define("LAN_FRONT_17", "Share");
 define("LAN_FRONT_18", "Update Required");
-define("LAN_FRONT_19", "To play the media you will need to either update your browser to a recent version or update your <a href='http://get.adobe.com/flashplayer/' target='_blank'>Flash plugin</a>.");
+define("LAN_FRONT_19", "Check console for javascript errors.");
 define("LAN_FRONT_20", "Default playlist");
 define("LAN_FRONT_21", "embed:");
 define("LAN_FRONT_22", "popup window");

@@ -6,6 +6,9 @@ Its code was used with permission of original author. It will be probably in fut
 but it's enough for time being.
 
 
+### Version 1.1.1
+
+- fixed javascript if JQuery is moved to footer 
 
 ### Version 1.1.0 for 2.3.1
 

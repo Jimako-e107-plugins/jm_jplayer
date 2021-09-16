@@ -293,7 +293,7 @@ if (!class_exists('Wolf_Jplayer_Show'))
 								}
 
 								$playlist = substr($playlist, 0, -1);
-								$output.= '<script type="text/javascript">//<![CDATA[';
+								$output.= ' //<![CDATA[';
 								$output.= "\n";
 								$output.= 'jQuery(document).ready(function($) {
 										new jPlayerPlaylist( {
@@ -316,10 +316,10 @@ if (!class_exists('Wolf_Jplayer_Show'))
 								$output.= '});'; // end playlist
 								if (!$in_popup) $output.= $this->popup();
 								$output.= '});'; // end document ready playlist
-								$output.= '//]]></script>';
+								$output.= '//]]> ';
 						}
 
-						echo $output;
+					    e107::js('footer-inline', $output, 'jquery');
 				}
 
 				/**
